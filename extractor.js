@@ -56,7 +56,7 @@ return new Promise((resolve,reject)=>{
                     e[1]=e[1].replace(',','.');
                 }
                 if(/ihre depotnummer/.test(e[0])){
-                    tempObj['ihre depotnummer']=e[1].trim();
+                    tempObj['depot']=e[1].trim();
                 }
                 else if(/depotinhaber/.test(e[0])){
                     tempObj['depotinhaber']=e[1].trim();
