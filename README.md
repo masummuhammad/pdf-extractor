@@ -1,3 +1,9 @@
+extractor.js is a module. If you want to use extractor function then you have import it from extractor js.
 #
-[Have a look at index.js here i showed the use of extractor.js]
-you have to create a folder named pdfs where you put all the pdf files
+const extractor=require('./extractor');
+#
+===========================================================================
+1.open pdfExtractor directory.
+2.type 'npm install'
+3.now type node index.js 'pdf file'
+that's it
